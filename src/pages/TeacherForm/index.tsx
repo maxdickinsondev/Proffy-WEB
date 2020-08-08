@@ -34,8 +34,18 @@ export default function TeacherForm() {
     function handleCreateClass(event: FormEvent) {
         event.preventDefault();
 
-        console.log({
-            scheduleItems
+        api.post('classes', {
+            name,
+            avatar,
+            whatsapp,
+            bio,
+            subject,
+            cost: Number(cost),
+            schedule: scheduleItems
+        }).then(() => {
+            alert('Cadastro realizado com sucesso!');
+        }).catch(() => {
+            alert('Erro no cadastro');
         });
     }
 
