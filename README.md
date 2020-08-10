@@ -8,9 +8,6 @@
 - ReactJS
 - TypeScript
 - React-Router-Dom
-- React-Icons
-- React-Dropzone
+- Google Fonts
 - Axios
-- API do IBGE
-- Leaflet
 
