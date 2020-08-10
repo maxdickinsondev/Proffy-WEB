@@ -11,3 +11,5 @@
 - Google Fonts
 - Axios
 
+Assistir ao vídeo no YouTube: https://youtu.be/b2XSeLNHtCA
+
